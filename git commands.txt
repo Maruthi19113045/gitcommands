@@ -1,0 +1,19 @@
+cd c:/
+mkdir gitdemo
+cd gitdemo
+git init
+git config --global user.name"Kavin"
+git config --global user.email"kavin.mani2000@gmail.com"
+notepad sample.txt
+git status
+git add sample.txt
+(do some changes in text file)
+git status
+git add sample.txt
+git log
+git diff --staged(after commit no difference)
+git commit-m"commit the changes" sample.txt
+git clone http link
+git remote add origin http link
+git push -u origin master
+
